@@ -2,7 +2,7 @@ const express = require('express');
 const cors = require('cors')
 const bodyParser = require('body-parser');
 const logger = require('morgan');
-const productsRoutes = require('./routes/products');
+const postsRoutes = require('./routes/posts');
 const db = require('./db/connection')
 const PORT = process.env.PORT || 3000
 
@@ -14,7 +14,7 @@ app.use(logger('dev'))
 
 
 // creates home route with /api/products  indicates api url 
-app.use('/api', productsRoutes);
+app.use('/api', postsRoutes);
 
 db.on('error', console.error.bind(console, 'MongoDB connection error:'))
 
