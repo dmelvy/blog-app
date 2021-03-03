@@ -26,10 +26,10 @@ function Form(props) {
   }, [props.id]);
   
   const handleChange = (e) => {
-    const { key, value } = e.target
+    const { name, value } = e.target
     setPost({
       ...post,
-      [key]: value
+      [name]: value
     });
   };
 
