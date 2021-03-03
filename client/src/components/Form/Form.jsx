@@ -5,6 +5,7 @@ import './Form.css'
 
 
 function Form(props) {
+  console.log(props)
   const [post, setPost] = useState(
     {
       title: '',

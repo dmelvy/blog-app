@@ -12,7 +12,7 @@ function PostEdit(props) {
   const [isUpdated, setUpdated] = useState(false);
   const history = useHistory();
   const { id } = useParams();
-
+console.log(id)
   if (isUpdated) {
     history.push('/');
 }
