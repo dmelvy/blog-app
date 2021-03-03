@@ -11,7 +11,7 @@ import './PostEdit.css';
 function PostEdit(props) {
   const [isUpdated, setUpdated] = useState(false);
   const history = useHistory();
-  const { id } = useParams();
+  const {id} = useParams();
 
   if (isUpdated) {
     history.push('/');
