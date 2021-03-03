@@ -3,7 +3,7 @@ import { useParams, useHistory } from 'react-router-dom';
 
 
 import Layout from '../../shared/Layout/Layout.jsx';
-import Form from '../../components/Form.jsx';
+import Form from '../../components/Form/Form.jsx';
 
 import './PostEdit.css';
 

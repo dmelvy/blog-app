@@ -2,6 +2,7 @@ import './PostCard.css';
 import { Link } from 'react-router-dom';
 
 function PostCard(props) {
+  console.log(props)
   return (
     <div className='post-card'>
       <Link className='card' to={`/posts/${props.id}`}>

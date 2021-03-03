@@ -16,9 +16,9 @@ function PostCards() {
   }, [])
 
 
-  const cards = posts.map((post, index) =>
+  const cards = posts.reverse().map((post, index) =>
     index < 8 ?
-      <PostCard id={post.id} name={post.name} imgURL={post.imgURL} key={index} />
+      <PostCard id={post._id} title={post.title} imgURL={post.imgURL} key={index} />
     : null)
   return (
     <div className='post-cards'>
