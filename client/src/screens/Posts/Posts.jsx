@@ -24,6 +24,7 @@ const Posts = (props) => {
 
   const handleSearch = event => {
     const newQueriedPosts = allPosts.filter(post => post.title.toLowerCase().includes(event.target.value.toLowerCase()))
+    setQueriedPosts(newQueriedPosts)
   }
 
   const handleSubmit = event => event.preventDefault()
