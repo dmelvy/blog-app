@@ -1,0 +1,49 @@
+/* 
+the hottest pink: rgb(254	48 216)
+tasteful neon green: rgb(164	237	99)
+harvest orange: rgb(252	128	41)
+brilliant indigo: rgb(33 64 194) 
+*/
+
+a {
+  text-decoration: none;
+}
+
+.nav {
+height: 15vh;
+display: flex;
+justify-content: space-between;
+background-color: rgb(164	237	99);
+font-family: Georgia, 'Times New Roman', Times, serif;
+font-weight: 900;
+color: rgb(33 64 194); 
+}
+
+.logo-text {
+  font-size: 3em;
+  align-self: center;
+  color: rgb(33 64 194);
+}
+
+.nav-links {
+font-size: 2em;
+padding: 10px;
+display: flex;
+align-items: center;
+}
+
+.nav-link {
+margin: 10px;
+color: rgb(33 64 194);
+}
+
+.logo-image {
+background-color: rgb(254	48 216);
+padding: .5em;
+border-radius: 50%;
+position: absolute;
+width: 12em;
+left: 50vw;
+margin-left: -6em;
+
+}
