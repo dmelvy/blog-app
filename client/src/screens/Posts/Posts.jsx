@@ -3,6 +3,7 @@ import Layout from '../../shared/Layout/Layout'
 import { useState, useEffect } from 'react'
 import './Posts.css'
 import { getPosts } from '../../services/posts'
+import Search from '../../components/Search/Search'
 
 
 const Posts = (props) => {
