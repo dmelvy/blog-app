@@ -1,0 +1,13 @@
+.post-form {
+  display: flex;
+  flex-direction: column;
+  margin-top: 8em;
+}
+
+
+input,
+textarea {
+  max-width: 60vw;
+  margin: 15px;
+  border-radius: 4px;
+}
