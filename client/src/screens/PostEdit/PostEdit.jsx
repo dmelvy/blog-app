@@ -9,11 +9,17 @@ import './PostEdit.css';
 
 
 function PostEdit(props) {
-  const [isUpdated, setUpdated] = useState(false)
+  const [isUpdated, setUpdated] = useState(false);
+  const history = useHistory();
+  const { id } = useParams();
+
+  if (isUpdated) {
+    history.push('/');
+}
 
   return (
     <Layout>
-      <Form setHappened={setUpdated}/>
+      <Form setHappened={setUpdated} id={id}/>
   </Layout>
 );
 };

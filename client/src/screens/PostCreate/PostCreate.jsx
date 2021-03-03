@@ -8,6 +8,11 @@ import './PostCreate.css'
 
 function PostCreate(props) {
   const [isCreated, setCreated] = useState(false)
+  const history = useHistory();
+
+  if (isCreated) {
+    history.push('/');
+}
 
   return (
     <Layout>
