@@ -7,16 +7,16 @@ const main = async () => {
   const posts =
     [
         {
-            "title": "To code this weekend, or not to code...that is the question.",
-            "imgURL": "https://www.unsplash.com/92hd.png",
-            "content": "5 more weeks, you can do it.",
+            "title": "Existentialism",
+            "imgURL": "https://i.imgur.com/Yd2RYuk.jpg",
+            "content": "I found this in my sister's closet.",
             "author": "Daphne Melvin"
       },
       {
-            "title": "Oh the joys of back-end code.",
-            "imgURL": "https://www.unsplash.com/64ea.png",
-            "content": "Time to go FULL CRUD.",
-            "author": "Daphne Melvin"
+            "title": "Goblet of Fire",
+            "imgURL": "https://i.imgur.com/aAXn2Ck.jpg",
+            "content": "My cup runneth over.",
+            "author": "Jessica Embury"
         }
     ]
   
