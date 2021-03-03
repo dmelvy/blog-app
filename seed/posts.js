@@ -35,6 +35,12 @@ const main = async () => {
         "imgURL": "https://images.unsplash.com/photo-1536604673810-81370412626d?ixid=MXwxMjA3fDB8MHxzZWFyY2h8NTV8fHNpbGx5JTIwdHJpbmtldCUyMGNvbGxlY3Rpb258ZW58MHx8MHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=800&q=60",
         "content": "what used to be is now just memories past...",
         "author" : "RIPFloppyDisk"
+      },
+      {
+        "title": "Stuff",
+        "imgURL": "https://images.unsplash.com/reserve/oIpwxeeSPy1cnwYpqJ1w_Dufer%20Collateral%20test.jpg?ixlib=rb-1.2.1&ixid=MXwxMjA3fDB8MHxzZWFyY2h8NzZ8fHNpbGx5JTIwdHJpbmtldCUyMGNvbGxlY3Rpb258ZW58MHx8MHw%3D&auto=format&fit=crop&w=800&q=60",
+        "content": "Working hard",
+        "author" : "handyman"
     },
     ]
   
