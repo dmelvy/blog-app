@@ -2,7 +2,7 @@ import { useState } from "react";
 import { useParams, useHistory } from 'react-router-dom';
 
 
-import Layout from '../../components/shared/Layout/Layout.jsx';
+import Layout from '../../shared/Layout/Layout.jsx';
 import Form from '../../components/Form.jsx';
 
 import './PostEdit.css';

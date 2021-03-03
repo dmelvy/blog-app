@@ -7,9 +7,13 @@ function PostCards() {
   const [posts, setPosts] = useState([]);
 
   useEffect(() => {
-    const resp = await getPosts();
-    setPosts(resp.data)
+    const fetchPosts = async () => {
+      const posts = await getPosts();
+      setPosts(posts)
+    }
+    fetchPosts();
   }, [])
+
 
   const cards = posts.map((post, index) =>
     index < 8 ?

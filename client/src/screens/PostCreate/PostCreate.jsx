@@ -1,7 +1,7 @@
 import { useState } from "react";
 import { useHistory } from 'react-router-dom';
-import Layout from '../../components/shared/Layout/Layout.jsx';
-import Form from '../../components/Form.jsx';
+import Layout from '../../shared/Layout/Layout.jsx';
+import Form from '../../components/Form/Form.jsx';
 
 import './PostCreate.css'
 

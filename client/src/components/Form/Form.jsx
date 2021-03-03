@@ -1,5 +1,6 @@
 import { useState, useEffect } from "react";
-import { getPost, updatePost, createPost } from '../../services/products.js';
+import { getPost, updatePost, createPost } from '../../services/posts.js';
+
 
 import './Form.css'
 
