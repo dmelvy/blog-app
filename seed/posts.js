@@ -25,10 +25,10 @@ const main = async () => {
         "author" : "Einstein"
       },
       {
-        "title": "Lil' Guys",
-        "imgURL": "https://images.unsplash.com/photo-1526285592708-e83cf5365929?ixid=MXwxMjA3fDB8MHxzZWFyY2h8M3x8dHJpbmtldHN8ZW58MHx8MHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=800&q=60",
-        "content": "E=MC",
-        "author" : "Einstein"
+        "title": "Vintage",
+        "imgURL": "https://images.unsplash.com/photo-1523812483161-8af21dad90dc?ixid=MXwxMjA3fDB8MHxzZWFyY2h8NTB8fHNpbGx5JTIwdHJpbmtldCUyMGNvbGxlY3Rpb258ZW58MHx8MHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=800&q=60",
+        "content": "Check out my estate",
+        "author" : "grandma"
     },
     ]
   
