@@ -11,9 +11,13 @@ function PostCards() {
     setPosts(resp.data)
   }, [])
 
+  const cards = posts.map((post, index) =>
+    index < 8 ?
+      <PostCard id={post.id} name={post.name} imgURL={post.imgURL} key={index} />
+    : null)
   return (
     <div className='post-cards'>
-
+      {cards}
     </div>
   )
 }
