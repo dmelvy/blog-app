@@ -4,10 +4,11 @@ import { getPosts } from '../../services/posts';
 import { useEffect, useState } from 'react';
 
 function PostCards() {
-  const [posts, setPosts] = useState([]);
+  const [posts, setPosts] = useState(["I am a test"]);
 
   useEffect(() => {
     const fetchPosts = async () => {
+      console.log("i can has posts?");
       const posts = await getPosts();
       setPosts(posts)
     }
