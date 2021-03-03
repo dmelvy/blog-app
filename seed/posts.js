@@ -8,14 +8,14 @@ const main = async () => {
     [
       {
         "title": "Existentialism",
-        "imgURL": "https://i.imgur.com/Yd2RYuk.jpg",
+        "imgURL": "https://unsplash.com/photos/3fCMFCbGuuE",
         "content": "I found this in my sister's closet.",
         "author": "Daphne Melvin"
       },
       {
-        "title": "Oh the joys of back-end code.",
-        "imgURL": "https://www.unsplash.com/64ea.png",
-        "content": "Time to go FULL CRUD.",
+        "title": "Life Enhancements",
+        "imgURL": "https://unsplash.com/photos/8lI2oMFHSeQ",
+        "content": "DIY improvements to your lifestyle.",
         "author": "Daphne Melvin"
       },
       {
