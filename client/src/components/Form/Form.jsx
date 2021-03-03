@@ -1,4 +1,8 @@
-import {useState,useEffect } from "react";
+import { useState, useEffect } from "react";
+import { getPost, updatePost, createPost } from '../../services/products.js';
+
+import './Form.css'
+
 
 function Form(props) {
   const [post, setPost] = useState(
@@ -16,7 +20,7 @@ function Form(props) {
         const post = await getPost(props.id);
         setPost(post);
       }
-      fetchProduct();
+      fetchPost();
     }
   }, [props.id]);
   
@@ -30,7 +34,6 @@ function Form(props) {
 
   const handleSubmit = async (e) => {
     e.preventDefault();
-    //should handle update as well, pass params as prop from edit component?
     if (props.id) {
       const something = await updatePost(props.id, post);
       props.setHappened(something);
