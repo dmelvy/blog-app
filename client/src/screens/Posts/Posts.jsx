@@ -2,10 +2,8 @@ import Post from '../../components/Post/Post'
 import Layout from '../../shared/Layout/Layout'
 import { useState, useEffect } from 'react'
 import './Posts.css'
-import Search from '../../components/Search/Search'
-import Layout from '../../components/shared/Layout/Layout'
 import { getPosts } from '../../services/posts'
-import Nav from '../../shared/Nav/Nav'
+
 
 const Posts = (props) => {
   const [allPosts, setAllPosts] = useState([])
@@ -34,13 +32,10 @@ const Posts = (props) => {
 
   return (
     <Layout>
-      <Nav />
-      <Link to='/posts'>
       <Search onSubmit={handleSubmit} onChange={handleSearch} />
       <div className="posts">
         {postsJSX}
       </div>
-        </Link>
     </Layout>
   )
 }
