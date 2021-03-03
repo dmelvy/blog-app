@@ -17,7 +17,13 @@ const main = async () => {
             "imgURL": "https://www.unsplash.com/64ea.png",
             "content": "Time to go FULL CRUD.",
             "author": "Daphne Melvin"
-        }
+      },
+      {
+        "title": "work hard, play harder",
+        "imgURL": "https://images.unsplash.com/photo-1502163736820-9bfa4575afcf?ixid=MXwxMjA3fDB8MHxzZWFyY2h8N3x8ZGlydGJpa2V8ZW58MHx8MHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=800&q=60",
+        "content": "party on wayne",
+        "author" : "dollydoxyfree "
+    },
     ]
   
     await Post.insertMany(posts)
