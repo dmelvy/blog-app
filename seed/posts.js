@@ -13,7 +13,6 @@ const main = async () => {
         "author": "Daphne Melvin"
       },
       {
-<<<<<<< HEAD
         "title": "Oh the joys of back-end code.",
         "imgURL": "https://www.unsplash.com/64ea.png",
         "content": "Time to go FULL CRUD.",
