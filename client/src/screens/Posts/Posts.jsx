@@ -21,13 +21,13 @@ const Posts = (props) => {
 
 
   const handleSearch = event => {
-    const newQueriedPosts = allPosts.filter(post => post.name.toLowerCase().includes(event.target.value.toLowerCase()))
+    const newQueriedPosts = allPosts.filter(post => post.title.toLowerCase().includes(event.target.value.toLowerCase()))
   }
 
   const handleSubmit = event => event.preventDefault()
 
   const postsJSX = queriedPosts.map((post, index) =>
-    <Post _id={post._id} name={post.name} imgURL={post.imgURL} content={post.content} author={post.author} key={index} />
+    <Post _id={post._id} title={post.title} imgURL={post.imgURL} content={post.content} author={post.author} key={index} />
   )
 
   return (
