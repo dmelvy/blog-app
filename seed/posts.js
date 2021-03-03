@@ -19,10 +19,16 @@ const main = async () => {
             "author": "Daphne Melvin"
       },
       {
-        "title": "work hard, play harder",
-        "imgURL": "https://images.unsplash.com/photo-1502163736820-9bfa4575afcf?ixid=MXwxMjA3fDB8MHxzZWFyY2h8N3x8ZGlydGJpa2V8ZW58MHx8MHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=800&q=60",
-        "content": "party on wayne",
-        "author" : "dollydoxyfree "
+        "title": "Lil' Guys",
+        "imgURL": "https://images.unsplash.com/photo-1526285592708-e83cf5365929?ixid=MXwxMjA3fDB8MHxzZWFyY2h8M3x8dHJpbmtldHN8ZW58MHx8MHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=800&q=60",
+        "content": "E=MC",
+        "author" : "Einstein"
+      },
+      {
+        "title": "Lil' Guys",
+        "imgURL": "https://images.unsplash.com/photo-1526285592708-e83cf5365929?ixid=MXwxMjA3fDB8MHxzZWFyY2h8M3x8dHJpbmtldHN8ZW58MHx8MHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=800&q=60",
+        "content": "E=MC",
+        "author" : "Einstein"
     },
     ]
   
