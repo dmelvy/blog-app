@@ -5,6 +5,9 @@ harvest orange: rgb(252	128	41)
 brilliant indigo: rgb(33 64 194) 
 */
 
+body{
+  font-family: 'Press Start 2P', cursive;
+}
 
 .posts{
   display: flex;
@@ -13,6 +16,15 @@ brilliant indigo: rgb(33 64 194)
   grid-row: auto;
   grid-column: auto;
   margin: 10px;
-  text-align: center;
 }
 
+div.post-title{
+  text-align: center;
+  padding: 5px;
+  font-size: 12px;
+}
+
+div.author{
+  color: rgb(254, 48, 216);
+  font-size: 10px;
+}
