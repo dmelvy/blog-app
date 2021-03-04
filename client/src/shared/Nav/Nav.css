@@ -47,3 +47,9 @@ width: 8em;
 left: 50vw;
 margin-left: -6em;
 }
+
+@media (max-width: 800px) {
+  .logo-image {
+  visibility: hidden;
+  }
+}
