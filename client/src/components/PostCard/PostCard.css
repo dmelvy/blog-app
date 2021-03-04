@@ -1,3 +1,20 @@
+.post-card {
+  padding: 48px;
+}
+
 .card img {
-  width: 10%;
+  width: 300px;
+  height: 300px;
+  object-fit: cover;
+  object-position: 50% 0;
+}
+
+.card-title {
+  font-size: 18px;
+}
+
+a {
+  text-decoration: none;
+  color: black;
+  text-align: center;
 }

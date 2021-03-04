@@ -80,7 +80,7 @@ function Form(props) {
         required
         onChange={handleChange}
     />
-      <button type='submit' className="submit-button">{props.id ? 'Edit':'Create'}</button>
+      <button type='submit' className="submit-button">{props.id ? 'Change':'Create'}</button>
 </form>
 );
 };

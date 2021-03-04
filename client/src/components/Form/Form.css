@@ -1,13 +1,29 @@
+/* 
+the hottest pink: rgb(254	48 216)
+tasteful neon green: rgb(164	237	99)
+harvest orange: rgb(252	128	41)
+brilliant indigo: rgb(33 64 194) 
+*/
+
 .post-form {
   display: flex;
   flex-direction: column;
   margin-top: 8em;
+  align-items: center;
+  justify-content: center;
+  padding-top: 48px;
 }
 
 
 input,
 textarea {
-  max-width: 60vw;
+  width: 40vw;
   margin: 15px;
-  border-radius: 4px;
+  font-family: 'Press Start 2P', cursive;
+background-color: rgba(164,237,99,.4);
+color: rgb(33 64 194);
+border-top-style: hidden;
+    border-right-style: hidden;
+    border-left-style: hidden;
+    border-bottom-style: hidden;
 }

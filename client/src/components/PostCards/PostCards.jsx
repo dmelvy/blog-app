@@ -21,8 +21,10 @@ function PostCards() {
       <PostCard id={post._id} title={post.title} imgURL={post.imgURL} key={index} />
     : null)
   return (
-    <div className='post-cards'>
+    <div className='latest'>Latest Posts:
+      <div className='post-cards'>
       {cards}
+      </div>
     </div>
   )
 }
