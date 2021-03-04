@@ -5,6 +5,7 @@ import './Form.css'
 
 
 function Form(props) {
+  console.log(props)
   const [post, setPost] = useState(
     {
       title: '',
@@ -79,7 +80,7 @@ function Form(props) {
         required
         onChange={handleChange}
     />
-      <button type='submit' className="submit-button">{props.params ? 'Edit':'Create'}</button>
+      <button type='submit' className="submit-button">{props.id ? 'Edit':'Create'}</button>
 </form>
 );
 };
