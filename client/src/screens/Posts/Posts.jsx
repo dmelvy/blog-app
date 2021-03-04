@@ -10,6 +10,7 @@ import { getPosts } from '../../services/posts'
 const Posts = (props) => {
   const [allPosts, setAllPosts] = useState([])
   const [queriedPosts, setQueriedPosts] = useState([])
+  const [toggleFetch, setToggleFetch] = useState(false)
   
 
   useEffect(() => {
@@ -19,7 +20,7 @@ const Posts = (props) => {
       setQueriedPosts(posts)
     }
     fetchPosts()
-  }, [])
+  }, [toggleFetch])
 
 
   const handleSearch = event => {
@@ -30,7 +31,9 @@ const Posts = (props) => {
   const handleSubmit = event => event.preventDefault()
 
   const postsJSX = queriedPosts.map((post, index) =>
-    <Post _id={post._id} title={post.title} imgURL={post.imgURL} content={post.content} author={post.author} key={index} />
+  index < 20 ?
+      <Post _id={post._id} title={post.title} imgURL={post.imgURL} content={post.content} author={post.author} key={index} /> 
+      : null
   )
 
   return (
