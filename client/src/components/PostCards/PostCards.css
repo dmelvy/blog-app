@@ -1,5 +1,13 @@
+.post-cards {
+  margin: 300px 20px 0px 20px;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+}
 
-
-
-
+.post-card {
+  margin: 10px;
+}
 
