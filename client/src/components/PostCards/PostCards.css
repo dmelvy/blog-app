@@ -1,0 +1,10 @@
+.post-cards {
+  display: flex;
+  overflow-x: scroll;
+}
+
+
+.latest {
+  padding: 48px;
+  margin: 48px;
+}
