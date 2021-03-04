@@ -1,3 +1,23 @@
+.post-detail {
+  margin: 48px;
+  padding: 48px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  font-family: 'Press Start 2P', cursive;
+  font-size: 12px;
+}
+
 .post-detail-image {
   width: 40%;
+}
+
+.post-detail-title, .post-detail-author {
+  padding-top: 8px;
+}
+
+.post-detail-content {
+  padding: 8px;
 }
