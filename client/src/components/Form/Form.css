@@ -17,9 +17,9 @@ brilliant indigo: rgb(33 64 194)
 
 input,
 textarea {
-  width: 30vw;
+  width: 40vw;
   margin: 15px;
-  font-family: Georgia, 'Times New Roman', Times, serif;
+  font-family: 'Press Start 2P', cursive;
 background-color: rgba(164,237,99,.4);
 color: rgb(33 64 194);
 border-top-style: hidden;
