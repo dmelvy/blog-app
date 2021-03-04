@@ -1,4 +1,16 @@
 .post-image{
   height: 200px;
   width: 200px;
+  border: 4px solid rgb(33, 64 ,194);
+}
+
+.post{
+  margin: auto;
+  margin-top: 15px;
+  margin-botton: 10px;
+}
+
+.post a{
+  text-decoration: none;
+  text-color: rgb(33, 64, 194);
 }
