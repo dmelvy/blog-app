@@ -6,3 +6,12 @@
 .blurb {
   text-align: center;
 }
+
+@media only screen and (max-width: 800px) {
+  
+  .home {
+    margin: 16px;
+    padding: 16px;
+  }
+
+}
