@@ -10,7 +10,7 @@ import { getPosts } from '../../services/posts'
 const Posts = (props) => {
   const [allPosts, setAllPosts] = useState([])
   const [queriedPosts, setQueriedPosts] = useState([])
-  const [toggleFetch, setToggleFetch] = useState(false)
+  // const [toggleFetch, setToggleFetch] = useState(false)
   
 
   useEffect(() => {
@@ -20,11 +20,12 @@ const Posts = (props) => {
       setQueriedPosts(posts)
     }
     fetchPosts()
-  }, [toggleFetch])
+  }, [])
 
 
   const handleSearch = event => {
     const newQueriedPosts = allPosts.filter(post => post.title.toLowerCase().includes(event.target.value.toLowerCase()))
+    setQueriedPosts(newQueriedPosts)
   }
 
   const handleSubmit = event => event.preventDefault()
