@@ -1,4 +1,14 @@
-
+.post{
+  width: 200px;
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  align-items: center;
+  align-content: center;
+  margin: 8px;
+  padding: 8px;
+  white-space: pre-wrap;
+}
 
 .post-image{
   height: 200px;
@@ -6,13 +16,10 @@
   object-fit: cover;
 object-position: 50% 0;
   border: 4px solid rgb(33, 64 ,194);
+  object-fit: cover;
+  object-position: 50% 0;
 }
 
-.post{
-  margin: auto;
-  margin-top: 15px;
-  margin-bottom: 10px;
-}
 
 .post a{
   text-decoration: none;
